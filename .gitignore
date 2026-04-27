@@ -1,2 +1,5 @@
 # data folder
 data/
+
+# logs - ignore checkpoints
+lightning_logs_mnist/lightning_logs/*/checkpoints/*

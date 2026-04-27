@@ -1,0 +1,17 @@
+image_shape:
+- 1
+- 28
+- 28
+cnn_layers:
+- - 64
+  - 5
+  - 2
+  - 2
+- - 64
+  - 5
+  - 2
+  - 2
+fc_layers:
+- 1024
+num_class: 10
+p: 0.2
